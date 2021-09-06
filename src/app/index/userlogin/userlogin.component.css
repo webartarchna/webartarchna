@@ -1,0 +1,149 @@
+body{
+    background: #c9ccd1; 
+    }
+    .form-style input{
+        border:0;
+        height:50px;
+        border-radius:0;
+    border-bottom:1px solid #ebebeb;	
+    }
+    .form-style input:focus{
+    border-bottom:1px solid #007bff;	
+    box-shadow:none;
+    outline:0;
+    background-color:#ebebeb;	
+    }
+    .sideline {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color:#ccc;
+    }
+    button{
+    height:50px;	
+    }
+    .sideline:before,
+    .sideline:after {
+        content: '';
+        border-top: 1px solid #ebebeb;
+        margin: 0 20px 0 0;
+        flex: 1 0 20px;
+    }
+    
+    .sideline:after {
+        margin: 0 0 0 20px;
+    }
+
+
+
+
+
+
+
+/* .login {
+    min-height: 100vh;
+  }
+  
+  .logo{
+    height: 260px;
+    width: 270px;
+  
+  }
+  .text-center{
+    margin-top: -70px;
+  }
+  .align{
+    margin-bottom: 20px;
+  }
+  .align2{
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+  .bg-image {
+    background-image: url('#');
+    background-color:rgba(203, 184, 105, 0.5);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .login-heading {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  }
+  .login-headingbottom {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  bottom: 30px;
+  }
+  .form-check-input{
+    border: 2px solid #CBB869;
+    box-sizing: border-box;
+    margin-right: 10px;
+  }
+  
+  .log{
+  text-decoration: none;
+  font-weight: 500;
+  color:#CBB869;
+  
+  }
+  .acc{
+  font-weight: 500;
+  margin-top: 70px;
+  }
+  .btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+    color: #fff;
+    background: #CBB869;
+    filter: drop-shadow(16px 16px 20px #CBB869);
+  }
+  .btn-login:hover{
+  background-color: #a59247;
+  color: #FEF8EF;
+  }
+  .container-fluid{
+    background-color: #FEF8EF;
+  }
+  
+  .small{
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+    font-size: 28;
+    float: right;
+    font-weight: 600;
+  
+  }
+  .form-control{
+  background: #FEF8EF;
+  border: 2px solid #CBB869;
+  box-sizing: border-box;
+  border-radius: 5px;
+  
+  }
+  
+  .reserve, .tc{
+    font-size: 10px;
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+    margin-top: 140px;
+  }
+  .lab{
+    color: #CBB869;
+  }
+  
+  .field-icon {
+    float: right;
+    margin-right: 10px;;
+    margin-top: -35px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+  } */

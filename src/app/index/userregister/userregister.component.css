@@ -1,0 +1,134 @@
+body, div, a, p, span{
+    user-select: text !important;
+   }p, h1, h2, h3, h4, h5, h6
+   {
+     cursor: auto;
+     user-select: text !important;
+    }
+   .selector-for-some-widget {
+    box-sizing: content-box;
+  }
+  html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+.signup {
+    min-height: 100vh;
+  }
+  
+  .logo{
+    height: 260px;
+    width: 270px;
+  
+  }
+  .text-center{
+    margin-top: -70px;
+  }
+  .align{
+    margin-bottom: 20px;
+  }
+  .align2{
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+  .bg-image {
+    background-image: url("#");
+    background-color:rgba(203, 184, 105, 0.5);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .signup-heading {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  }
+  .signup-headingbottom {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  bottom: 30px;
+  }
+  .form-check-input{
+    border: 2px solid #CBB869;
+    box-sizing: border-box;
+    margin-right: 10px;
+  }
+  
+  .log{
+  text-decoration: none;
+  font-weight: 500;
+  color:#CBB869;
+  
+  }
+  .acc{
+  font-weight: 500;
+  margin-top: 70px;
+  }
+  .btn-signup {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+    color: #fff;
+    background: #CBB869;
+    filter: drop-shadow(16px 16px 20px #CBB869);
+  }
+  .btn-signup:hover{
+  background-color: #a59247;
+  color: #FEF8EF;
+  }
+  .container-fluid{
+    background-color: #FEF8EF;
+  }
+  
+  .small{
+    text-decoration: none;
+    font-size: 28;
+    font-weight: 600;
+  
+  }
+  .form-control{
+  background: #FEF8EF;
+  border: 2px solid #CBB869;
+  box-sizing: border-box;
+  border-radius: 5px;
+  
+  }
+  
+  .reserve, .tc{
+    font-size: 10px;
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+    margin-top: 140px;
+  }
+  .lab{
+    color: #CBB869;
+  }
+  .lab1{
+    color: #CBB869;
+    margin-left: 10px;
+  }
+  .lab3{
+    color: #CBB869;
+    padding-left: 10px;
+  
+  
+  }
+  
+  
+  .field-icon {
+    float: right;
+    margin-right: 10px;;
+    margin-top: -35px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+
+  
